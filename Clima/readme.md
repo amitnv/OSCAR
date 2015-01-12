@@ -1,3 +1,5 @@
-Clima!
-The open source chrome app..
+<head>
+<h1>
+Clima</h1>
+</head>
 
