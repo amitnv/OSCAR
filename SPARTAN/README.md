@@ -1,6 +1,7 @@
 <html>
 <head>
 <h1>SPARTAN</h1>
+<h6>Download spartan:goo.gl/8P5Vbk</h6>
 </head>
 <body>
 SPARTAN is a simple text editor.
