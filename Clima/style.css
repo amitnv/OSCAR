@@ -6,14 +6,14 @@ html, body {
   margin: 0px;
   padding: 0px;
   -webkit-app-region: drag;
-  color: #424242;
+  color: #ffffff;
   font-family: "Quicksand", "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 18px;
   text-align: center;
   -webkit-user-select:none;
-  background-color:#777;
+  background-color:#273238;
    -webkit-box-shadow: 0px 0px 40px rgba(0,0,0,.8);
     -webkit-box-shadow: 10px 0px 0px rgba(0,0,0,.8);
     -moz-box-shadow: 0px 0px 40px rgba(0,0,0,.8);
@@ -64,9 +64,9 @@ body:hover.not-mobile #close {
 }
 
 .button {
-  background-color: #fff;
-  background-image: linear-gradient(top, #ffffff, #ffffff);
-  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-color: #424242;
+  background-image: linear-gradient(top, #424242, #424242);
+  background-image: -webkit-linear-gradient(top, #424242, #424242);
   border: 0px solid rgba(0, 0, 0, 0.1);
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -92,13 +92,13 @@ body:hover.not-mobile #close {
 }
 
 .button:hover {
-  background-color: #e0e0e0;
-  background-image: -webkit-linear-gradient(top, #e0e0e0, #e0e0e0);
-  background-image: linear-gradient(top, #e0e0e0, #e0e0e0);
-  border: 0px solid #e0e0e0;
+  background-color: #353434;
+  background-image: -webkit-linear-gradient(top, #353434, #353434);
+  background-image: linear-gradient(top, #353434, #353434);
+  border: 0px solid #353434;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
-  color: #222;
+  color: #fff;
   transition: all 0.0s;
   -webkit-transition: all 0.0s;
 }
@@ -114,17 +114,17 @@ body:hover.not-mobile #close {
 }
 
 .button.blue {
-  background-color: #fff;
-  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
-  background-image: linear-gradient(top, #ffffff, #ffffff);
+  background-color: #424242;
+  background-image: -webkit-linear-gradient(top, #424242, #424242);
+  background-image: linear-gradient(top, #424242, #424242);
   border: 0px solid #ffffff;
   color: #00796b;
 }
 
 .button.blue:hover {
-  background-color: #e0e0e0;
-  background-image: -webkit-linear-gradient(top, #e0e0e0, #e0e0e0);
-  background-image: linear-gradient(top, #e0e0e0, #e0e0e0);
+  background-color: #353434;
+  background-image: -webkit-linear-gradient(top, #353434, #353434);
+  background-image: linear-gradient(top, #353434, #353434);
   border: 0px solid #e0e0e0;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
@@ -199,14 +199,14 @@ input[type=checkbox]:focus {
 }
 
 input[type=text] {
-  background-color: #fff;
+  background-color: #424141;
   border: 1px solid #d9d9d9;
   border-top: 1px solid #c0c0c0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border-radius: 1 px;
   -webkit-border-radius: 1px;
-  color: #333;
+  color: #fff;
   display: inline-block;
   font-family: "Quicksand", "Open Sans", sans-serif;
   font-size: 16px;
@@ -250,7 +250,7 @@ input[type=text].form-error{
   left: 0px;
   bottom: 0px;
   right: 0px;
-  background: #fff;
+  background: #424242;
   text-align: middle;
   padding: 15px;
   z-index: 1;
@@ -258,7 +258,7 @@ input[type=text].form-error{
 
 #settings #source,
 #settings #source a {
-  color: #000;
+  color: #FFFFFF;
   font-size: 11px;
   margin-bottom: 10px;
   margin-top: 5px;
@@ -282,7 +282,7 @@ input[type=text].form-error{
 }
 
 #settings #cities-list .delete {
-  background: url('img/x.png') center no-repeat;
+  background: url('img/del.png') center no-repeat;
   background-size: 12px 12px;
   display: inline-block;
   height: 30px;
@@ -315,7 +315,7 @@ input[type=text].form-error{
   white-space: nowrap;
   overflow: hidden;
   -webkit-box-sizing: border-box;
-  background-color: #c95cff;
+  background-color: #5fcfd9;
   z-index: 10000;
   -webkit-transition: opacity 0.7s ease-in;
 }
@@ -549,93 +549,78 @@ input[type=text].form-error{
 }
 
 .forecast.cloudy {
-  background-color: #2196f3;
-  background-image: linear-gradient(top, #2196f3, #2196f3);
-  background-image: -webkit-linear-gradient(top, #2196f3, #2196f3);
+background: url('img/5.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.hail {
-  background-color: #00bcd4;
-  background-image: linear-gradient(top, #00bcd4, #00bcd4);
-  background-image: -webkit-linear-gradient(top, #00bcd4, #00bcd4);
+  background: url('img/2.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.light-rain {
-  background-color: #82bddf;
-  background-image: linear-gradient(top, #82bddf, #528daf);
-  background-image: -webkit-linear-gradient(top, #82bddf, #528daf);
+  background: url('img/5.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.light-snow {
-  background-color: #f44336;
-  background-image: linear-gradient(top, #f44336, #f44336);
-  background-image: -webkit-linear-gradient(top, #f44336, #f44336);
+  background: url('img/3.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.mostly-sunny {
-  background-color: #9c27b0;
-  background-image: linear-gradient(top, #9c27b0, #9c27b0);
-  background-image: -webkit-linear-gradient(top, #9c27b0, #9c27b0);
+  background: url('img/4.png') center no-repeat;
+  background-size: 120% 120%;
  }
 
 .forecast.partly-cloudy {
-  background-color: #fff59d;
-  background-image: linear-gradient(top, #fff59d, #fff176);
-  background-image: -webkit-linear-gradient(top, #fff59d, #fff176);
+  background: url('img/1.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.rain-snow {
-  background-color: #673ab7;
-  background-image: linear-gradient(top, #673ab7, #673ab7);
-  background-image: -webkit-linear-gradient(top, #673ab7, #673ab7);
+  background: url('img/3.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.rain {
-  background-color: #78afce;
-  background-image: linear-gradient(top, #78afce, #487f9e);
-  background-image: -webkit-linear-gradient(top, #78afce, #487f9e);
+  background: url('img/2.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.scattered-light-rain {
-  background-color: #8fd6fe;
-  background-image: linear-gradient(top, #8fd6fe, #5fa6ce);
-  background-image: -webkit-linear-gradient(top, #8fd6fe, #5fa6ce);
+  background: url('img/5.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.scattered-rain {
-  background-color: #3f51b5;
-  background-image: linear-gradient(top, #3f51b5, #3f51b5);
-  background-image: -webkit-linear-gradient(top, #3f51b5, #3f51b5);
+  background: url('img/5.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.scattered-snow {
-  background-color: #03a9f4;
-  background-image: linear-gradient(top, #03a9f4, #03a9f4);
-  background-image: -webkit-linear-gradient(top, #03a9f4, #03a9f4);
+  background: url('img/3.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.scattered-tstorm {
-  background-color: #8bc34a;
-  background-image: linear-gradient(top, #8bc34a, #8bc34a);
-  background-image: -webkit-linear-gradient(top, #8bc34a, #8bc34a);
+  background: url('img/5.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.snow {
-  background-color: #ffeb3b;
-  background-image: linear-gradient(top, #ffeb3b, #ffeb3b);
-  background-image: -webkit-linear-gradient(top, #ffeb3b, #ffeb3b);
+  background: url('img/3.png') center no-repeat;
+  background-size: 120% 120%;
  }
 
 .forecast.sunny {
-  background-color: #4caf50;
-  background-image: linear-gradient(top, #4caf50, #4caf50);
-  background-image: -webkit-linear-gradient(top, #4caf50, #4caf50);
+  background: url('img/4.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .forecast.tstorm {
-  background-color: #795548;
-  background-image: linear-gradient(top, #795548, #795548);
-  background-image: -webkit-linear-gradient(top, #795548, #795548);
+  background: url('img/3.png') center no-repeat;
+  background-size: 120% 120%;
 }
 
 .hidden {

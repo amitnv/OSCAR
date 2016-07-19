@@ -12,8 +12,12 @@ Features:
 <li>Material Colors</li>
 <li>Material layout</li>
 <li>Arrow key navigation</li>
-<Li>curent temp with highest and lowest temp. data</li>
+<li>curent temp with highest and lowest temp. data</li>
 <li>option to toggle farhenheit and celsius</li>
+<li> version 2.0 onwards:</li>
+<li>New colorful UI</li>
+<li>Optimised for touchscreens</li>
+<li>Bug fixes and performance improvements</li>
 
 </body>
 </html>

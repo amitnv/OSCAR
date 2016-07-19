@@ -1,22 +1,4 @@
-/**
- * Copyright (c) 2012 The Chromium Authors. All rights reserved.
- * Use of this source code is governed by a BSD-style license that can be
- * found in the LICENSE file.
- **/
-
-
-/* TODO: Bugs to fix:
- * 
- * * Some formatter_address's are not formatted well for wether query
- *  * ie, search for dublin returns formatted_address: "Dublin, Co. Dublin, Ireland"
- *  and doing a weather search on that fails, so we dont add the city.
-
-/******************************************************************************/
-/******************************************************************************/
-/******************************************************************************/
-// consts
-
-const num_dots_at_bottom = 4;
+const num_dots_at_bottom = 5;
 const base_weather_url = 'https://api.worldweatheronline.com/free/v1/weather.ashx?format=json&num_of_days=5&key=vfc3k7q22tjedr2rxse7xzke&q=';
 const base_geolocation_url = 'http://maps.googleapis.com/maps/api/geocode/json?sensor=true&language=EN&latlng=';
 const base_searchterm_url = 'http://maps.googleapis.com/maps/api/geocode/json?sensor=false&language=EN&address=';
