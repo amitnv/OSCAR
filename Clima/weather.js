@@ -1,5 +1,5 @@
 const num_dots_at_bottom = 5;
-const base_weather_url = 'https://api.worldweatheronline.com/free/v1/weather.ashx?format=json&num_of_days=5&key=vfc3k7q22tjedr2rxse7xzke&q=';
+const base_weather_url = 'https://api.worldweatheronline.com/free/v1/weather.ashx?format=json&num_of_days=5&key=e612251765e7445c96b20828182804=';
 const base_geolocation_url = 'http://maps.googleapis.com/maps/api/geocode/json?sensor=true&language=EN&latlng=';
 const base_searchterm_url = 'http://maps.googleapis.com/maps/api/geocode/json?sensor=false&language=EN&address=';
 // Samples:
